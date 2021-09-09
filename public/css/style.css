@@ -115,7 +115,7 @@
     text-align: center;
     color: #fff;
     background-color: #686868;
-    background-image: linear-gradient(rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+    background-image: linear-gradient #9356DC, #FF79DA;
     cursor: pointer;
     transition-duration: 0.25s;
     box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
@@ -227,6 +227,7 @@
     right: 20px;
     top: 10px;
     background: linear-gradient(#FF79DA, #9356DC);
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     opacity: 0;
   }
@@ -234,13 +235,13 @@
   .sect_1 .coeur_1:hover .coeur_neutre_1 {
     opacity: 0;
     cursor: pointer;
-    transition: 2s ease-in-out;
+    transition: 1s ease-in-out;
   }
 
   .sect_1 .coeur_1:hover .coeur_rempli_1 {
     opacity: 1;
     cursor: pointer;
-    transition: 2s ease-in-out;
+    transition: 1s ease-in-out;
   }
 
   .coeur_neutre {
@@ -257,18 +258,19 @@
     right: 20px;
     top: 220px;
     background: linear-gradient(#FF79DA, #9356DC);
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     opacity: 0;
   }
 
   .container .coeur:hover .coeur_neutre {
     opacity: 0;
-    transition: 2s ease-in-out;
+    transition: 1s ease-in-out;
   }
 
   .container .coeur:hover .coeur_rempli {
     opacity: 1;
-    transition: 2s ease-in-out;
+    transition: 1s ease-in-out;
   }
 
   .fa, .fas, .far {
@@ -284,7 +286,7 @@
 
   .new {
     border-radius: 3px;
-    background-color: #99e2d0;
+    background-color: #99E2D0;
     color: #217460;
     padding: 5px;
     position: absolute;
@@ -418,12 +420,11 @@
   }
 
   .menu:hover .fa-check-circle {
-    -webkit-transform: rotate(3600deg);
-    -moz-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
     transform: rotate(360deg);
-    transition: rotate 0.5s ease-in-out;
+  }
+
+  .fa-check-circle {
+    transition: transform 1s ease-in-out;
   }
 
   .titre_menu {
@@ -638,7 +639,7 @@
     text-align: center;
     color: #fff;
     background-color: #686868;
-    background-image: linear-gradient(rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+    background-image: linear-gradient(#9356DC, #FF79DA);
     cursor: pointer;
     transition-duration: 0.25s;
     box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
@@ -749,6 +750,7 @@
     right: 20px;
     top: 10px;
     background: linear-gradient(#FF79DA, #9356DC);
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     opacity: 0;
   }
@@ -756,13 +758,13 @@
   .sect_1 .coeur_1:hover .coeur_neutre_1 {
     opacity: 0;
     cursor: pointer;
-    transition: 2s ease-in-out;
+    transition: 1s ease-in-out;
   }
 
   .sect_1 .coeur_1:hover .coeur_rempli_1 {
     opacity: 1;
     cursor: pointer;
-    transition: 2s ease-in-out;
+    transition: 1s ease-in-out;
   }
 
   .coeur_neutre {
@@ -779,18 +781,19 @@
     right: 20px;
     top: 220px;
     background: linear-gradient(#FF79DA, #9356DC);
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     opacity: 0;
   }
 
   .container .coeur:hover .coeur_neutre {
     opacity: 0;
-    transition: 2s ease-in-out;
+    transition: 1s ease-in-out;
   }
 
   .container .coeur:hover .coeur_rempli {
     opacity: 1;
-    transition: 2s ease-in-out;
+    transition: 1s ease-in-out;
   }
 
   .fa, .fas, .far {
@@ -937,12 +940,11 @@
 
   .menu:hover .fa-check-circle {
     cursor: pointer;
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
     transform: rotate(360deg);
-    transition: rotate 0.5s ease-in-out;
+  }
+
+  .fa-check-circle {
+    transition: transform 1s ease-in-out;
   }
 
   .titre_menu {
