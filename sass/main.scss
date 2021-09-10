@@ -4,6 +4,8 @@ $color-tertiary: #99E2D0;
 
 @media all and (max-width: 1122px){
 
+    //*LOAD SPINNER*//
+
     .loader {
         position: fixed;
         height: 100%;
@@ -86,6 +88,70 @@ $color-tertiary: #99E2D0;
           transform: translateY(0);
         }     
     }
+
+    //*ANIMATION COEUR*//
+
+    .coeur_neutre_1 {
+        font-size: 1.5rem;
+        position: absolute;
+        right: 20px;
+        top: 10px;
+        opacity: 1;
+    }
+    
+    .coeur_rempli_1 {
+        font-size: 1.5rem;
+        position: absolute;
+        right: 20px;
+        top: 10px;
+        background: linear-gradient($color-secondary, $color-primary);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        opacity: 0;
+    }
+    
+    .sect_1 .coeur_1:hover .coeur_neutre_1 {
+        opacity: 0;
+        cursor: pointer;
+        transition: 1s ease-in-out;
+    }
+    
+    .sect_1 .coeur_1:hover .coeur_rempli_1 {
+        opacity: 1;
+        cursor: pointer;
+        transition: 1s ease-in-out;
+    }
+    
+    .coeur_neutre {
+        font-size: 1.5rem;
+        position: absolute;
+        right: 20px;
+        top: 220px;
+        opacity: 1;
+    }
+    
+    .coeur_rempli {
+        font-size: 1.5rem;
+        position: absolute;
+        right: 20px;
+        top: 220px;
+        background: linear-gradient($color-secondary, $color-primary);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        opacity: 0;
+    }
+    
+    .container .coeur:hover .coeur_neutre {
+        opacity: 0;
+        transition: 1s ease-in-out;
+    }
+    
+    .container .coeur:hover .coeur_rempli {
+        opacity: 1;
+        transition: 1s ease-in-out;
+    }
+    
+    //*PAGE WEB*//
 
     body {
         font-family: 'roboto';
@@ -232,66 +298,6 @@ $color-tertiary: #99E2D0;
         margin: 0 0 3rem 0;
         text-decoration: none;
         color: black;
-    }
-
-    .coeur_neutre_1 {
-        font-size: 1.5rem;
-        position: absolute;
-        right: 20px;
-        top: 10px;
-        opacity: 1;
-    }
-
-    .coeur_rempli_1 {
-        font-size: 1.5rem;
-        position: absolute;
-        right: 20px;
-        top: 10px;
-        background: linear-gradient($color-secondary, $color-primary);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        opacity: 0;
-    }
-
-    .sect_1 .coeur_1:hover .coeur_neutre_1 {
-        opacity: 0;
-        cursor: pointer;
-        transition: 1s ease-in-out;
-    }
-
-    .sect_1 .coeur_1:hover .coeur_rempli_1 {
-        opacity: 1;
-        cursor: pointer;
-        transition: 1s ease-in-out;
-    }
-
-    .coeur_neutre {
-        font-size: 1.5rem;
-        position: absolute;
-        right: 20px;
-        top: 220px;
-        opacity: 1;
-    }
-
-    .coeur_rempli {
-        font-size: 1.5rem;
-        position: absolute;
-        right: 20px;
-        top: 220px;
-        background: linear-gradient($color-secondary, $color-primary);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        opacity: 0;
-    }
-
-    .container .coeur:hover .coeur_neutre {
-        opacity: 0;
-        transition: 1s ease-in-out;
-    }
-
-    .container .coeur:hover .coeur_rempli {
-        opacity: 1;
-        transition: 1s ease-in-out;
     }
 
     .fa, .fas, .far { 
@@ -554,6 +560,8 @@ $color-tertiary: #99E2D0;
 
 @media all and (min-width:1123px) {
 
+    //*LOAD SPINNER*//
+
     .loader {
         position: fixed;
         height: 100%;
@@ -636,6 +644,70 @@ $color-tertiary: #99E2D0;
           transform: translateY(0);
         }     
     }
+
+     //*ANIMATION COEUR*//
+
+     .coeur_neutre_1 {
+        font-size: 1.5rem;
+        position: absolute;
+        right: 20px;
+        top: 10px;
+        opacity: 1;
+    }
+
+    .coeur_rempli_1 {
+        font-size: 1.5rem;
+        position: absolute;
+        right: 20px;
+        top: 10px;
+        background: linear-gradient($color-secondary, $color-primary);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        opacity: 0;
+    }
+
+    .sect_1 .coeur_1:hover .coeur_neutre_1 {
+        opacity: 0;
+        cursor: pointer;
+        transition: 1s ease-in-out;
+    }
+
+    .sect_1 .coeur_1:hover .coeur_rempli_1 {
+        opacity: 1;
+        cursor: pointer;
+        transition: 1s ease-in-out;
+    }
+
+    .coeur_neutre {
+        font-size: 1.5rem;
+        position: absolute;
+        right: 20px;
+        top: 220px;
+        opacity: 1;
+    }
+
+    .coeur_rempli {
+        font-size: 1.5rem;
+        position: absolute;
+        right: 20px;
+        top: 220px;
+        background: linear-gradient($color-secondary, $color-primary);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        opacity: 0;
+    }
+
+    .container .coeur:hover .coeur_neutre {
+        opacity: 0;
+        transition: 1s ease-in-out;
+    }
+
+    .container .coeur:hover .coeur_rempli {
+        opacity: 1;
+        transition: 1s ease-in-out;
+    }
+
+    //*PAGE WEB*//
 
     body {
         font-family: 'roboto';
@@ -781,66 +853,6 @@ $color-tertiary: #99E2D0;
         margin: 1rem 1rem 3rem 0;
         text-decoration: none;
         color: black;
-    }
-
-    .coeur_neutre_1 {
-        font-size: 1.5rem;
-        position: absolute;
-        right: 20px;
-        top: 10px;
-        opacity: 1;
-    }
-
-    .coeur_rempli_1 {
-        font-size: 1.5rem;
-        position: absolute;
-        right: 20px;
-        top: 10px;
-        background: linear-gradient($color-secondary, $color-primary);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        opacity: 0;
-    }
-
-    .sect_1 .coeur_1:hover .coeur_neutre_1 {
-        opacity: 0;
-        cursor: pointer;
-        transition: 1s ease-in-out;
-    }
-
-    .sect_1 .coeur_1:hover .coeur_rempli_1 {
-        opacity: 1;
-        cursor: pointer;
-        transition: 1s ease-in-out;
-    }
-
-    .coeur_neutre {
-        font-size: 1.5rem;
-        position: absolute;
-        right: 20px;
-        top: 220px;
-        opacity: 1;
-    }
-
-    .coeur_rempli {
-        font-size: 1.5rem;
-        position: absolute;
-        right: 20px;
-        top: 220px;
-        background: linear-gradient($color-secondary, $color-primary);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        opacity: 0;
-    }
-
-    .container .coeur:hover .coeur_neutre {
-        opacity: 0;
-        transition: 1s ease-in-out;
-    }
-
-    .container .coeur:hover .coeur_rempli {
-        opacity: 1;
-        transition: 1s ease-in-out;
     }
 
     .fa, .fas, .far {
@@ -1106,5 +1118,4 @@ $color-tertiary: #99E2D0;
         left: 30px;
         color: black;
     }
-
 }

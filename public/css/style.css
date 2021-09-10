@@ -66,6 +66,66 @@
       transform: translateY(0);
     }
   }
+  .coeur_neutre_1 {
+    font-size: 1.5rem;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    opacity: 1;
+  }
+
+  .coeur_rempli_1 {
+    font-size: 1.5rem;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    background: linear-gradient(#FF79DA, #9356DC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 0;
+  }
+
+  .sect_1 .coeur_1:hover .coeur_neutre_1 {
+    opacity: 0;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+  }
+
+  .sect_1 .coeur_1:hover .coeur_rempli_1 {
+    opacity: 1;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+  }
+
+  .coeur_neutre {
+    font-size: 1.5rem;
+    position: absolute;
+    right: 20px;
+    top: 220px;
+    opacity: 1;
+  }
+
+  .coeur_rempli {
+    font-size: 1.5rem;
+    position: absolute;
+    right: 20px;
+    top: 220px;
+    background: linear-gradient(#FF79DA, #9356DC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 0;
+  }
+
+  .container .coeur:hover .coeur_neutre {
+    opacity: 0;
+    transition: 1s ease-in-out;
+  }
+
+  .container .coeur:hover .coeur_rempli {
+    opacity: 1;
+    transition: 1s ease-in-out;
+  }
+
   body {
     font-family: "roboto";
     margin: 0;
@@ -211,66 +271,6 @@
     margin: 0 0 3rem 0;
     text-decoration: none;
     color: black;
-  }
-
-  .coeur_neutre_1 {
-    font-size: 1.5rem;
-    position: absolute;
-    right: 20px;
-    top: 10px;
-    opacity: 1;
-  }
-
-  .coeur_rempli_1 {
-    font-size: 1.5rem;
-    position: absolute;
-    right: 20px;
-    top: 10px;
-    background: linear-gradient(#FF79DA, #9356DC);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    opacity: 0;
-  }
-
-  .sect_1 .coeur_1:hover .coeur_neutre_1 {
-    opacity: 0;
-    cursor: pointer;
-    transition: 1s ease-in-out;
-  }
-
-  .sect_1 .coeur_1:hover .coeur_rempli_1 {
-    opacity: 1;
-    cursor: pointer;
-    transition: 1s ease-in-out;
-  }
-
-  .coeur_neutre {
-    font-size: 1.5rem;
-    position: absolute;
-    right: 20px;
-    top: 220px;
-    opacity: 1;
-  }
-
-  .coeur_rempli {
-    font-size: 1.5rem;
-    position: absolute;
-    right: 20px;
-    top: 220px;
-    background: linear-gradient(#FF79DA, #9356DC);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    opacity: 0;
-  }
-
-  .container .coeur:hover .coeur_neutre {
-    opacity: 0;
-    transition: 1s ease-in-out;
-  }
-
-  .container .coeur:hover .coeur_rempli {
-    opacity: 1;
-    transition: 1s ease-in-out;
   }
 
   .fa, .fas, .far {
@@ -590,6 +590,66 @@
       transform: translateY(0);
     }
   }
+  .coeur_neutre_1 {
+    font-size: 1.5rem;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    opacity: 1;
+  }
+
+  .coeur_rempli_1 {
+    font-size: 1.5rem;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    background: linear-gradient(#FF79DA, #9356DC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 0;
+  }
+
+  .sect_1 .coeur_1:hover .coeur_neutre_1 {
+    opacity: 0;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+  }
+
+  .sect_1 .coeur_1:hover .coeur_rempli_1 {
+    opacity: 1;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+  }
+
+  .coeur_neutre {
+    font-size: 1.5rem;
+    position: absolute;
+    right: 20px;
+    top: 220px;
+    opacity: 1;
+  }
+
+  .coeur_rempli {
+    font-size: 1.5rem;
+    position: absolute;
+    right: 20px;
+    top: 220px;
+    background: linear-gradient(#FF79DA, #9356DC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 0;
+  }
+
+  .container .coeur:hover .coeur_neutre {
+    opacity: 0;
+    transition: 1s ease-in-out;
+  }
+
+  .container .coeur:hover .coeur_rempli {
+    opacity: 1;
+    transition: 1s ease-in-out;
+  }
+
   body {
     font-family: "roboto";
     margin: 0;
@@ -734,66 +794,6 @@
     margin: 1rem 1rem 3rem 0;
     text-decoration: none;
     color: black;
-  }
-
-  .coeur_neutre_1 {
-    font-size: 1.5rem;
-    position: absolute;
-    right: 20px;
-    top: 10px;
-    opacity: 1;
-  }
-
-  .coeur_rempli_1 {
-    font-size: 1.5rem;
-    position: absolute;
-    right: 20px;
-    top: 10px;
-    background: linear-gradient(#FF79DA, #9356DC);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    opacity: 0;
-  }
-
-  .sect_1 .coeur_1:hover .coeur_neutre_1 {
-    opacity: 0;
-    cursor: pointer;
-    transition: 1s ease-in-out;
-  }
-
-  .sect_1 .coeur_1:hover .coeur_rempli_1 {
-    opacity: 1;
-    cursor: pointer;
-    transition: 1s ease-in-out;
-  }
-
-  .coeur_neutre {
-    font-size: 1.5rem;
-    position: absolute;
-    right: 20px;
-    top: 220px;
-    opacity: 1;
-  }
-
-  .coeur_rempli {
-    font-size: 1.5rem;
-    position: absolute;
-    right: 20px;
-    top: 220px;
-    background: linear-gradient(#FF79DA, #9356DC);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    opacity: 0;
-  }
-
-  .container .coeur:hover .coeur_neutre {
-    opacity: 0;
-    transition: 1s ease-in-out;
-  }
-
-  .container .coeur:hover .coeur_rempli {
-    opacity: 1;
-    transition: 1s ease-in-out;
   }
 
   .fa, .fas, .far {
