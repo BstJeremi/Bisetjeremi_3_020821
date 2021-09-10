@@ -704,6 +704,9 @@
     transition-duration: 0.25s;
     box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
   }
+  .btn:hover {
+    background-image: linear-gradient(#a962fc, #ff8cdf);
+  }
 
   .btn_origin {
     display: flex;
@@ -733,6 +736,11 @@
     border-radius: 20px;
     margin: 10px 20px 10px 25px;
     box-shadow: 2px 2px 7px #d3d3d3;
+  }
+  .choix:hover {
+    background-color: #f0f0f0;
+    color: #000;
+    box-shadow: 3px 3px 20px #f0f0f0;
   }
 
   .liste_choix {
