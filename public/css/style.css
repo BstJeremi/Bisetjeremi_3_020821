@@ -336,7 +336,7 @@
 
   .footer_princ {
     background-color: #494949;
-    text-align: center;
+    text-align: left;
   }
 
   footer a {
@@ -862,7 +862,6 @@
 
   .footer_sec {
     background-color: #494949;
-    text-align: center;
     margin-top: -3rem;
   }
 
