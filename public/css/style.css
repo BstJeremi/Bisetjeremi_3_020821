@@ -332,6 +332,7 @@
   .footer_sec {
     background-color: #494949;
     margin-top: -3rem;
+    text-align: left;
   }
 
   .footer_princ {
@@ -863,6 +864,7 @@
   .footer_sec {
     background-color: #494949;
     margin-top: -3rem;
+    text-align: center;
   }
 
   .footer_princ {
